@@ -458,7 +458,7 @@ function Room:update(dt)
                     -- hearts 
                     heart.onCollide = function()
                         gSounds['heal']:play()
-                        self.player.maxHealth = self.player.maxHealth + 1
+                        self.player.maxHealth = self.player.maxHealth + 2
                         self.player.health = self.player.maxHealth
                     end
 
