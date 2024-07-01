@@ -79,7 +79,7 @@ function PlayerSwingSwordState:update(dt)
                 end
 
                 gSounds['hit-enemy']:play()
-            --end
+            end
         end
     end
 
