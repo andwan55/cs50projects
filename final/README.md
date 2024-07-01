@@ -32,6 +32,7 @@ Although I utilized assets from CS50's Zelda and Pokemon assignments (graphics/s
 - While entities and the player still operate on a StateMachine, the overall game now functions on a StateStack as I felt it suited this project better.
 - There is now a GUI in this project compared to before! Assets were ported from the Pokemon assignment and modified to suit the dimensions / display of the gameplay.
 - Instead of realtime combat based on avoiding enemies, the game now functions on a turn order. This is processed mostly in the Room file.
+
 Accomplishing this was really fun albeit complicated, as all of CS50's assignments (besides Pokemon) were realtime based. None were suitable as a reference for a turn-based implementation of gameplay, and thus I developed one of my own which is built into the Room file's update function. Overall, I wanted to add more to the original Zelda assignment's gameplay and change its dynamics, making the player choices feel more impactful and more varied in options. Admittedly, I did also have some additional ideas that I originally intended on building into this project as well, but ran out of time due to the deadline. For reference, they are:
 - Longer gameplay overall - currently the game ends at 5 rooms being cleared, but I wanted to double it and add a boss room at the end!
 - A boss encounter, complete with a larger mob, more dangerous attacks, and different visuals. The assets are actually still in the graphics folder!
