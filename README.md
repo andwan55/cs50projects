@@ -35,3 +35,27 @@ Below are HW-specific notes/logs for reference and noting the modifications made
 - A thrown pot will also do damage to enemies upon contact, and break
 
 > Best practice to reduce function redundancies (i.e. consolidate update checks)
+
+--- 6: Angry Birds
+- Launched player Alien can now split into three total Aliens midair (if not already collided with anything) by pressing the spacebar
+
+--- 7: Pokemon
+- Implemented a Menu to appear after the player's Pokemon levels up, displaying the individual stat increases for it
+
+--- 8: Helicopter 3D
+- Gems now spawn in similarly to Coins, but less frequently and are worth more
+- Scroll speed now resets upon restarting the level, instead of retaining speed increases from the previous run (scroll speed increases as the level progresses to provide for difficulty)
+
+--- 9: Dreadhalls
+- Holes will now spawn in a given level map that the player can fall through (and can jump over), usually about 3-4 holes per level
+- Falling through a hole will now take the player to a Game Over screen - they can restart from there as well
+- The player's cleared level count is now displayed on screen, and will reset to 0 if they fall through a hole
+
+--- 10: Portal
+- Created a level for the player to engage with
+- Added in an FPSController to allow for player input and level navigation
+- Added in a game object (invisible) at the end to act as a trigger zone to end the level
+- "You Won" is displayed if the player sets off the above level clear game object
+
+--- 11: Final Project
+- Please refer to the folder named "final" for a full README and for the project files!
